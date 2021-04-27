@@ -17,9 +17,7 @@ dependencies:
   - fiona
   - gdal
   - geopandas=0.8.2
-  - holoviews=1.13.5
   - holoviz=0.11.6
-  - hvplot=0.6.0
   - imagesize=1.2.0
   - importlib-metadata=2.0.0
   - importlib_metadata=2.0.0=1
@@ -33,7 +31,6 @@ dependencies:
   - libsodium=1.0.18
   - libspatialindex=1.9.3
   - libspatialite=5.0.1
-  - matplotlib
   - markdown=3.3.4
   - markupsafe=1.1.1
   - nbclient=0.5.2
@@ -70,7 +67,7 @@ dependencies:
   - sphinxcontrib-serializinghtml=1.1.4
   - wheel=0.36.2
   - pip:
-
+    - matplotlib
     - pandas==1.2.4
     - tableformatter==0.1.6
 prefix: C:\ProgramData\Anaconda3\envs\moe
