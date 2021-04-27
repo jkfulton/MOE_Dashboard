@@ -1,7 +1,6 @@
 name: moe
 channels:
   - conda-forge
-  - pyviz
   - anaconda
 
 dependencies:
