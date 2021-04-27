@@ -14,7 +14,8 @@ dependencies:
   - datashader=0.11.1
   - datashape=0.5.4
   - decorator=4.4.2
-  - fiona=1.6.3
+  - fiona
+  - gdal
   - geopandas=0.8.2
   - holoviews=1.13.5
   - holoviz=0.11.6
@@ -68,7 +69,7 @@ dependencies:
   - sphinxcontrib-serializinghtml=1.1.4
   - wheel=0.36.2
   - pip:
-    - gdal=1.11.4
+
     - pandas==1.2.4
     - tableformatter==0.1.6
 prefix: C:\ProgramData\Anaconda3\envs\moe
