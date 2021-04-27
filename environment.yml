@@ -1,8 +1,9 @@
 name: moe
 channels:
+  - conda-forge
   - pyviz
   - anaconda
-  - conda-forge
+
 dependencies:
   - bleach=3.3.0
   - bokeh=2.0.2
@@ -33,6 +34,7 @@ dependencies:
   - libspatialite=5.0.1
   - markdown=3.3.4
   - markupsafe=1.1.1
+  - matplotlib=3.4.1
   - nbclient=0.5.2
   - nbconvert=6.0.7
   - nbformat=5.1.2
@@ -67,7 +69,6 @@ dependencies:
   - sphinxcontrib-serializinghtml=1.1.4
   - wheel=0.36.2
   - pip:
-    - matplotlib
     - pandas==1.2.4
     - tableformatter==0.1.6
 prefix: C:\ProgramData\Anaconda3\envs\moe
